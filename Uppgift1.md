@@ -16,4 +16,4 @@
 # Anteckningar
 Anteckna kort här vad du har gjort för förändringar på sidan i denna uppgift.
 
-jag vill skapa en fakae e´konsert event eller typ fake promotional sida för en fake event därför skapade jag en footer om sociala medier osv och helt enkelt söker jag ett tema för band/artister men det är det mesta jag har bestämt för nu, jag ska gå i den riktningen, annars ändrade jag på h1 och fixade länkarna så att jag kan styla och använda dem också.
+jag snabbt skapade en kort layout för hur min sida ska se ut i framtiden, alltså alla semantic element samt följde jag "att göra" uppgifterna. 
