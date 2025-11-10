@@ -14,11 +14,63 @@ header {
     padding: 1rem 2rem;
     border-bottom: 1px solid #ddd;
     text-align: center;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
     
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     border-bottom: 1px solid rgba(255, 255, 255, 0.1);
 }
  body {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        background-color: rgb(41, 41, 55);
         /*background-image: url('https://img.freepik.com/free-photo/excited-audience-watching-confetti-fireworks-having-fun-music-festival-night-copy-space_637285-559.jpg');*/
         background-size:cover;
     }
+
+div.outro {
+    background-color: rgba(19, 22, 61, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 800px;
+    margin: 80px auto;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+
+}
+h2.end {
+    background-color: rgba(19, 24, 56, 0.8);
+    padding: 10px;
+    border-radius: 5px;
+
+}
+nav.main-nav ul {
+    background-color: rgba(33, 40, 88, 0.8);
+    list-style-type: none;
+    padding: 20px;
+    display: flex;
+    gap: 50px;
+    margin: auto;
+    border: 10px solid rgba(255, 255, 255, 0.1);
+}
+h1.ue {
+    color: rgb(255, 255, 255);
+    font-size: 3.5rem;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+    margin-bottom: 20px;
+}
+p.txtintro {
+    color: rgb(240, 240, 240);
+    font-size: 1.2rem;
+    line-height: 1.6;
+    margin-bottom: 30px;
+}
+aside.intro {
+    position: relative;
+    padding : 10px;
+    margin-top: 130px;
+    margin-left: 20px;
+    border-radius: 10px;
+    text-align: bottom left;
+    color: rgb(230, 230, 230);
+    padding: 15px;
+    border-radius: 8px;
+}
