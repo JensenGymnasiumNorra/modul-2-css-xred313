@@ -1,31 +1,39 @@
 header {
-    position: sticky;
-    top: 0;
-    z-index: 1000;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
 
-    background:rgb(18, 21, 51);
-    -webkit-backdrop-filter: saturate(180%) blur(20px);
-    backdrop-filter: saturate(180%) blur(20px);
+  background: rgba(1, 4, 27, 0.6);
 
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 1rem 2rem;
-    border-bottom: 1px solid #ddd;
-    text-align: center;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
-    
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  -webkit-backdrop-filter: blur(12px) saturate(180%);
+  backdrop-filter: blur(12px) saturate(180%);
+
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+  border-bottom: 1px solid rgba(255,255,255,.1);
 }
- body {
-        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-        background-color: rgb(41, 41, 55);
-        /*background-image: url('https://img.freepik.com/free-photo/excited-audience-watching-confetti-fireworks-having-fun-music-festival-night-copy-space_637285-559.jpg');*/
-        background-size:cover;
-    }
 
+body {
+        height: 750px;
+        background-image: url(https://images.unsplash.com/photo-1533174072545-7a4b6ad7a6c3?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8bXVzaWMlMjBmZXN0aXZhbHxlbnwwfHwwfHx8MA%3D%3D&fm=jpg&q=60&w=3000); /* bakgrundsbild */
+        background-size: cover;
+        background-position: center; 
+        position: relative;
+        border-top: 10000px;
+        padding-top: 100000px;  
+        border-radius: 10px;
+        color: rgb(230, 230, 230);
+        padding: 15px;
+        border-radius: 8px;
+
+        background-attachment: fixed;
+        justify-content: center;
+        color: white;
+        text-shadow: 0 2px 6px rgba(0, 0, 0, 0.7);
+    }
+s
 div.outro {
     background-color: rgba(19, 22, 61, 0.8);
     padding: 20px;
@@ -36,6 +44,12 @@ div.outro {
     text-align: center;
 
 }
+button.btnn1 {
+    font-size: 1.2rem;
+    background-color: rgba(255, 255, 255, 0.1);
+    cursor: pointer;
+    border-style:ridge;
+}
 h2.end {
     background-color: rgba(19, 24, 56, 0.8);
     padding: 10px;
@@ -43,7 +57,7 @@ h2.end {
 
 }
 nav.main-nav ul {
-    background-color: rgba(33, 40, 88, 0.8);
+    background-color: rgba(2, 9, 33, 0.8);
     list-style-type: none;
     padding: 20px;
     display: flex;
@@ -64,13 +78,15 @@ p.txtintro {
     margin-bottom: 30px;
 }
 aside.intro {
-    position: relative;
-    padding : 10px;
-    margin-top: 130px;
-    margin-left: 20px;
-    border-radius: 10px;
-    text-align: bottom left;
-    color: rgb(230, 230, 230);
-    padding: 15px;
-    border-radius: 8px;
+    height: 750px;
+}
+
+    
+
+div.btn1 {
+    padding: 10px 20px;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 5px;
+    text-size-adjust: 2000%;
 }
