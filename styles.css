@@ -16,24 +16,22 @@ header {
 }
 
 body {
-        height: 750px;
-        background-image: url(https://images.unsplash.com/photo-1533174072545-7a4b6ad7a6c3?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8bXVzaWMlMjBmZXN0aXZhbHxlbnwwfHwwfHx8MA%3D%3D&fm=jpg&q=60&w=3000); /* bakgrundsbild */
-        background-size: cover;
-        background-position: center; 
-        position: relative;
-        border-top: 10000px;
-        padding-top: 100000px;  
-        border-radius: 10px;
-        color: rgb(230, 230, 230);
-        padding: 15px;
-        border-radius: 8px;
+    background-image: url(https://images.unsplash.com/photo-1533174072545-7a4b6ad7a6c3?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8bXVzaWMlMjBmZXN0aXZhbHxlbnwwfHwwfHx8MA%3D%3D&fm=jpg&q=60&w=3000); /* bakgrundsbild */
+    background-size: cover;
+    background-position: center; 
+    position: relative;
+    border-top: 10000px;
+    padding-top: 100000px;  
+    border-radius: 10px;
+    color: rgb(230, 230, 230);
+    padding: 15px;
+    border-radius: 8px;
+    background-attachment: fixed;
+    justify-content: center;
+    color: white;
+    text-shadow: 0 2px 6px rgba(0, 0, 0, 0.7);
+}
 
-        background-attachment: fixed;
-        justify-content: center;
-        color: white;
-        text-shadow: 0 2px 6px rgba(0, 0, 0, 0.7);
-    }
-s
 div.outro {
     background-color: rgba(19, 22, 61, 0.8);
     padding: 20px;
@@ -44,12 +42,30 @@ div.outro {
     text-align: center;
 
 }
-button.btnn1 {
-    font-size: 1.2rem;
-    background-color: rgba(255, 255, 255, 0.1);
-    cursor: pointer;
-    border-style:ridge;
+
+button.btnn1 a {
+  text-decoration: none;
+  color: inherit;
 }
+button.btnn1 {
+  font-size: 1.1rem;
+  color: #fff;
+  background: rgba(255, 255, 255, 0.08);
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  border-radius: 8px;
+  padding: 0.6rem 1.4rem;
+  cursor: pointer;
+  letter-spacing: 1px;
+  backdrop-filter: blur(6px);
+}
+button.btnn1:hover {
+  background: linear-gradient(90deg, #ff007f, #6e00ff);
+  box-shadow: 0 0 15px #ff007f, 0 0 25px #6e00ff;
+}
+button.btnn1:active {
+  box-shadow: none;
+}
+
 h2.end {
     background-color: rgba(19, 24, 56, 0.8);
     padding: 10px;
@@ -57,13 +73,13 @@ h2.end {
 
 }
 nav.main-nav ul {
+    display:flex;
     background-color: rgba(2, 9, 33, 0.8);
     list-style-type: none;
     padding: 20px;
     display: flex;
     gap: 50px;
     margin: auto;
-    border: 10px solid rgba(255, 255, 255, 0.1);
 }
 h1.ue {
     color: rgb(255, 255, 255);
@@ -79,14 +95,24 @@ p.txtintro {
 }
 aside.intro {
     height: 750px;
+    float: left;
 }
+main.main-content {
+    display:grid;
+    background-color: rgba(10, 14, 34, 0.7);
+    background-size: cover;
+    background-position: center; 
+    position: relative;
+    background: rgba(1, 4, 27, 0.6);
 
-    
+  -webkit-backdrop-filter: blur(12px) saturate(180%);
+  backdrop-filter: blur(12px) saturate(180%);
 
-div.btn1 {
-    padding: 10px 20px;
-    text-align: center;
-    background-color: rgba(255, 255, 255, 0.1);
-    border-radius: 5px;
-    text-size-adjust: 2000%;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+  border-bottom: 1px solid rgba(255,255,255,.1);
+  width:70%;
+  margin:auto;
 }

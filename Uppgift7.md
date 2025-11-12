@@ -9,4 +9,4 @@ Spela flexboxdefense: http://www.flexboxdefense.com/
 Använd dig av det du har lärt dig om flexbox för att anpassa din sida.
 
 # Anteckningar
-Anteckna kort här vad du har gjort för förändringar på sidan i denna uppgift.
+använda det jag lärt mig i min hemsida

@@ -9,4 +9,4 @@ Spela Css Grid Attack: https://codingfantasy.com/games/css-grid-attack/play
 Använd dig av det du har lärt dig om Grid för att anpassa din sida.
 
 # Anteckningar
-Anteckna kort här vad du har gjort för förändringar på sidan i denna uppgift.
+använde mig av grid

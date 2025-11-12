@@ -14,4 +14,4 @@ Någon av nedanstående:
 - sticky
 
 # Anteckningar
-Anteckna kort här vad du har gjort för förändringar på sidan i denna uppgift.
+implementerade elementen i min hemsida
