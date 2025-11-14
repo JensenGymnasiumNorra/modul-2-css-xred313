@@ -14,5 +14,5 @@
    Gör så att när man klickar på denna länk går man högst upp på sidan.
 
 # Extra
-- Skapa en navbar som har en drop-down-meny.  
+- Skapa en navbar som har en drop-down-meny.
   Se denna länk: https://www.w3schools.com/css/css_dropdowns.asp

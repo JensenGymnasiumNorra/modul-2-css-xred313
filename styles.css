@@ -1,10 +1,15 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
 header {
   position: sticky;
   top: 0;
   z-index: 1000;
 
   background: rgba(1, 4, 27, 0.6);
-
   -webkit-backdrop-filter: blur(12px) saturate(180%);
   backdrop-filter: blur(12px) saturate(180%);
 
@@ -47,6 +52,7 @@ button.btnn1 a {
   text-decoration: none;
   color: inherit;
 }
+
 button.btnn1 {
   font-size: 1.1rem;
   color: #fff;
@@ -58,10 +64,12 @@ button.btnn1 {
   letter-spacing: 1px;
   backdrop-filter: blur(6px);
 }
+
 button.btnn1:hover {
   background: linear-gradient(90deg, #ff007f, #6e00ff);
   box-shadow: 0 0 15px #ff007f, 0 0 25px #6e00ff;
 }
+
 button.btnn1:active {
   box-shadow: none;
 }
@@ -72,15 +80,18 @@ h2.end {
     border-radius: 5px;
 
 }
+
 nav.main-nav ul {
     display:flex;
     background-color: rgba(2, 9, 33, 0.8);
+    background: linear-gradient(90deg, rgba(9, 9, 54, 0.8) 40%, rgba(0, 2, 14, 0.8) 60%);
     list-style-type: none;
     padding: 20px;
     display: flex;
     gap: 50px;
     margin: auto;
 }
+
 h1.ue {
     color: rgb(255, 255, 255);
     font-size: 3.5rem;
@@ -93,12 +104,18 @@ p.txtintro {
     line-height: 1.6;
     margin-bottom: 30px;
 }
+
 aside.intro {
     height: 750px;
     float: left;
+    text-align:bottom;
+    bottom: 750px;
+    float:bottom;s
+    
 }
+
 main.main-content {
-    display:grid;
+    display: grid;
     background-color: rgba(10, 14, 34, 0.7);
     background-size: cover;
     background-position: center; 
@@ -115,4 +132,45 @@ main.main-content {
   border-bottom: 1px solid rgba(255,255,255,.1);
   width:70%;
   margin:auto;
+}
+
+.bigdiv {
+    border-top: 1000px;
+    margin-top: 250px;
+}
+
+.artclelayout {
+    background-color: rgba(20, 24, 56, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 600px;
+    margin: 80px auto;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+.coldplaybox {
+    background-color: rgba(20, 24, 56, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 600px;
+    margin: 80px auto;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+.radioheadbox {
+    background-color: rgba(20, 24, 56, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 600px;
+    margin: 80px auto;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+.bandpic {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 15px;
 }
