@@ -26,10 +26,8 @@ body {
     background-position: center; 
     position: relative;
     border-top: 10000px;
-    padding-top: 100000px;  
     border-radius: 10px;
     color: rgb(230, 230, 230);
-    padding: 15px;
     border-radius: 8px;
     background-attachment: fixed;
     justify-content: center;
@@ -110,7 +108,7 @@ aside.intro {
     float: left;
     text-align:bottom;
     bottom: 750px;
-    float:bottom;s
+    float:bottom;
     
 }
 
